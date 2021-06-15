@@ -4,7 +4,7 @@ from dotenv import load_dotenv, find_dotenv
 
 
 def constant(f):
-    def fset(self, value):vffdfffggfgf
+    def fset(self, value):
         raise TypeError
     def fget(self):
         return f()
