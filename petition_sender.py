@@ -41,4 +41,3 @@ now = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
 log = open(CONST.LOG_PATH + "log.log", "a")
 log.write("\n" + now + " : Tout c'est bien déroulé.")
 log.close()
-
